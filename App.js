@@ -32,7 +32,7 @@ export default function FruitScatterChart() {
   const xTicks = [0, maxX * 0.25, maxX * 0.5, maxX * 0.75, maxX];
   const yTicks = [0, maxY * 0.25, maxY * 0.5, maxY * 0.75, maxY];
 
-  const imgSize = 30;
+  const imgSize = 35;
 
   return (
     <View style={{ padding: 10, backgroundColor: '#FFF' }}>
@@ -108,7 +108,7 @@ export default function FruitScatterChart() {
               />
               <SvgText
                 x={x + imgSize / 2} y={y - 4}
-                fontSize="7" textAnchor="middle"
+                fontSize="10" textAnchor="middle"
               >
                 {d.name}
               </SvgText>
