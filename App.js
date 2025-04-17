@@ -36,7 +36,7 @@ export default function FruitScatterChart() {
 
   return (
     <View style={{ padding: 10, backgroundColor: '#FFF' }}>
-      <Text style={{ fontSize: 18, textAlign: 'center', marginBottom: 10 }}>
+      <Text style={{ fontSize: 18, textAlign: 'center', marginBottom: 10, marginTop: 50,}}>
         Sokeri vs. kuitu (g / 100 g)
       </Text>
       <Svg width={width} height={height}>
